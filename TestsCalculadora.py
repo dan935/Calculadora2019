@@ -1,4 +1,4 @@
-from unittest import TestCase
+import unittest
 from Calculadora import Calculadora
 
 class TestCalculadora(TestCase):
@@ -13,4 +13,4 @@ class TestCalculadora(TestCase):
 
 
 if __name__ == '__main__':
-	unittes.main()
+	unittest.main()
