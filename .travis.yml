@@ -2,9 +2,6 @@ language: python
 python:
   - "2.7"
 
-install: 
-
-
 before_script:
   - echo "Antes de ejecutar un script" 
 
