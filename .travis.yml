@@ -1,0 +1,20 @@
+language: python 
+python:
+  - "2.7"
+
+install:
+  -echo "aqui se instala algo"  
+
+
+before_script:
+  - echo "Antes de ejecutar un script" 
+
+script:
+  - echo "Pruebas unitarias de calcualdora"
+  - python Test*.py
+  - echo "Finalizar"
+
+
+
+notifications:
+email: false  
