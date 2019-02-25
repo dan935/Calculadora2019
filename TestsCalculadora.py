@@ -1,7 +1,7 @@
 import unittest
 from Calculadora import Calculadora
 
-class TestCalculadora(TestCase):
+class TestCalculadora(unittest.TestCase):
 
 	def test_suma_2_mas_2(self):
 		cal = Calculadora()
